@@ -1,5 +1,4 @@
-name: "Close stale issues"
-
+   - name: Close Stale Issues
 # Controls when the action will run.
 on:
   schedule:
@@ -59,6 +58,7 @@ jobs:
         #dry-run: true
 
             - name: Close Stale Issues
+      -name: Close Stale Issues
   uses: actions/stale@v9.1.0
   with:
     # Token for the repository. Can be passed in using `{{ secrets.GITHUB_TOKEN }}`.
@@ -167,4 +167,3 @@ jobs:
     ignore-pr-updates: # optional, default is 
     # Only the issues or the pull requests with an assignee will be marked as stale automatically.
     include-only-assigned: # optional, default is false
-          
