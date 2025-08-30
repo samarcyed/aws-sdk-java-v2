@@ -33,7 +33,7 @@
 
     <properties>
         <jre.version>1.8</jre.version>
-        <awsjavasdk.version>${project.parent.version}</awsjavasdk.version>
+        <awsjavasdk.version>2.32.19</awsjavasdk.version>
     </properties>
 
     <dependencyManagement>
